@@ -1,5 +1,10 @@
+* {
+  font-family: "Spoqa Han Sans Neo";
+}
+
 .header-container {
   background-color: rgba(242, 233, 216, 1);
+  margin-bottom: 80px;
 }
 
 .header {
@@ -26,10 +31,10 @@
   font-weight: 500;
 }
 
-.btn-download {
+.a-btn {
   background-color: #d97652;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 29px;
   border-radius: 30px;
   text-decoration: none;
 }
@@ -58,4 +63,141 @@
 .header-img img {
   width: 100%;
   max-width: 400px;
+}
+
+.first-cat-section {
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.first-cat-section img {
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
+}
+
+.first-cat-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.first-cat-section-text {
+  width: 510px;
+}
+
+.main-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.main-desc h2 {
+  font-size: 48px;
+  color: rgba(217, 118, 82, 1);
+  margin-bottom: 40px;
+}
+
+.main-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  margin-bottom: 90px;
+}
+
+.main-imgs img {
+  width: 378px;
+  height: 378px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+.main-imgs-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 90px;
+}
+
+.main-imgs-desc p {
+  margin-bottom: 2px;
+}
+
+.subscribe-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(38, 49, 64, 1);
+  border-radius: 30px;
+  width: 1280px;
+  padding: 50px 58px;
+}
+
+.subscribe {
+  flex: 1;
+}
+
+.subscribe h2 {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.subscribe-input {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 530px;
+  background-color: white;
+  border-radius: 60px;
+  height: 60px;
+}
+
+.input-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0;
+  height: 100%;
+}
+
+.input-box img {
+  margin: 18px 16px 18px 28px;
+}
+
+.input-box a {
+  margin: 5px;
+}
+
+.last-img {
+  height: 340px;
+  overflow: hidden;
+}
+
+.last-img img {
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+.footer-logo {
+  width: 226px;
+  height: 70px;
 }
