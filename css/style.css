@@ -279,6 +279,10 @@
 .mob-subscribe {
   display: none;
 }
+
+.footer-menu-group {
+  display: none;
+}
 @media (max-width: 390px) {
   .header {
     padding: 20px;
@@ -502,5 +506,8 @@
   .modal .a-btn {
     font-size: 14px;
     padding: 11px 24px;
+  }
+  .scroll-top-btn {
+    display: none;
   }
 }
