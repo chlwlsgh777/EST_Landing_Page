@@ -283,7 +283,7 @@
 .footer-menu-group {
   display: none;
 }
-@media (max-width: 390px) {
+@media (max-width: 320px) {
   .header {
     padding: 20px;
   }
